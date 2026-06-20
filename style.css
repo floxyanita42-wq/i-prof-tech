@@ -1,0 +1,351 @@
+*{
+
+
+padding:0;
+box-sizing:border-box;
+
+background-image: url("images/profile.png");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+background:#050d19;
+color:white;
+font-family:Arial;
+}
+
+/* NAVBAR */
+
+nav{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+padding:20px;
+
+}
+
+nav h2{
+
+color:#d9b36f;
+
+margin-bottom:15px;
+
+}
+
+ul{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:15px;
+
+list-style:none;
+
+}
+
+
+/* HERO */
+
+.hero{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+padding:30px;
+
+text-align:center;
+
+}
+
+
+.left h1{
+
+font-size:55px;
+
+color:#d9b36f;
+
+}
+
+.left p{
+
+margin:20px 0;
+
+font-size:22px;
+
+}
+
+
+button{
+
+padding:12px 28px;
+
+background:#d9b36f;
+
+border:none;
+
+border-radius:10px;
+
+font-size:18px;
+
+}
+
+
+/* IMAGE FIX */
+
+.right img{
+
+width:280px;
+
+max-width:90%;
+
+height:auto;
+
+border-radius:20px;
+
+margin-top:30px;
+
+object-fit:cover;
+
+box-shadow:
+0 0 30px #d9b36f;
+
+}
+
+
+/* SERVICES */
+/* SERVICES SECTION */
+.services {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  color: #d9b36f;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.service-block {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.service-block h3 {
+  color: #d9b36f;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.service-block p {
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.service-block ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.service-block ul li {
+  color: white;
+  line-height: 1.8;
+  padding-left: 20px;
+  position: relative;
+}
+
+.service-block ul li::before {
+  content: "✔";
+  color: #d9b36f;
+  position: absolute;
+  left: 0;
+}
+
+
+.cards{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+gap:20px;
+
+padding:40px;
+
+}
+
+.box{
+
+width:90%;
+
+max-width:350px;
+
+background:#101a2d;
+
+padding:25px;
+
+border-radius:20px;
+
+text-align:center;
+
+}/* SOCIAL */
+.social-links a {
+  color: #d9b36f;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.social{
+
+padding:40px;
+
+text-align:center;
+
+}
+
+.icons{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.icons a{
+
+text-decoration:none;
+
+color:#d9b36f;
+
+font-size:22px;
+
+}
+
+
+
+/* ABOUT */
+
+.about{
+
+padding:40px;
+
+text-align:center;
+
+}
+
+.about h2{
+
+color:#d9b36f;
+
+margin-bottom:20px;
+
+}
+/* SERVICES SECTION */
+.services {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  color: #d9b36f;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.service-block {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.service-block h3 {
+  color: #d9b36f;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.service-block p {
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.service-block ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.service-block ul li {
+  color: white;
+  line-height: 1.8;
+  padding-left: 20px;
+  position: relative;
+}
+
+.service-block ul li::before {
+  content: "✔";
+  color: #d9b36f;
+  position: absolute;
+  left: 0;
+}
+
+
+
+
+/* CONTACT */
+
+.contact{
+
+padding:40px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+input,
+textarea{
+
+padding:15px;
+
+border:none;
+
+border-radius:10px;
+
+}
+
+textarea{
+
+height:120px;
+
+}
+
+.contact button{
+
+align-self:center;
+
+}
